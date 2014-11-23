@@ -1,0 +1,25 @@
+{
+	"name": "unichar-cli",
+	"description": "Command-line interface for UniChar",
+	"version": "0.0.1",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://unichar.net",
+	"keywords": ["unichar", "crud", "cli", "json"],
+	"repository": {
+	"type": "git",
+		"url": "git://github.com/unichar/cli.git"
+	},
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": {
+		"unichar": "bin/unichar"
+	},
+	"dependencies": {
+		"commander": "2.1.0",
+		"unichar": "*",
+		"prompt": "0.2.12"
+	}
+}
